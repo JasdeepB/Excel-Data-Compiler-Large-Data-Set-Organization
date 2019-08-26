@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARC Head Counts", "ARC Head Counts.csproj", "{D9120E73-3155-4186-9FB9-96DC5262862E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ARC Head Counts Installer", "..\ARC Head Counts Installer\ARC Head Counts Installer.vdproj", "{80320A53-5FB1-4600-9301-E3AD79B52EE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9120E73-3155-4186-9FB9-96DC5262862E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9120E73-3155-4186-9FB9-96DC5262862E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9120E73-3155-4186-9FB9-96DC5262862E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9120E73-3155-4186-9FB9-96DC5262862E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80320A53-5FB1-4600-9301-E3AD79B52EE8}.Debug|Any CPU.ActiveCfg = Debug
+		{80320A53-5FB1-4600-9301-E3AD79B52EE8}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03789A51-90A0-49CA-8907-78CBED45CECA}
+	EndGlobalSection
+EndGlobal
