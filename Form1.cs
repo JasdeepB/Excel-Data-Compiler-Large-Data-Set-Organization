@@ -111,10 +111,10 @@ namespace ARC_Head_Counts
                     }
                 };
 
-                //creatorsName.Visible = false;
-                //creatorLinkedIn.Visible = false;
-                //currentStateMessage.Visible = true;
-                //currentStateMessage.Text = "Getting Things Ready";
+                creatorsName.Visible = false;
+                creatorLinkedIn.Visible = false;
+                currentStateMessage.Visible = true;
+                currentStateMessage.Text = "Getting Things Ready";
             }
             catch (Exception exception)
             {
@@ -562,8 +562,8 @@ namespace ARC_Head_Counts
                 DateTime oDate = DateTime.Parse(test);
                 string dateToPass = oDate.Month + "-" + oDate.Day + "-" + oDate.Year;
                 //MessageBox.Show("Here's the date: " + GetDateReference() + "\n" + "Column: " + column + "\n" + "Row: " + row);
-                GC.Collect();
-                GC.WaitForPendingFinalizers();
+                //GC.Collect();
+                //GC.WaitForPendingFinalizers();
                 return dateToPass;
             }
             catch(Exception exception)
